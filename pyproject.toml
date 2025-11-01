@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=65", "wheel"]
+requires = ["setuptools==68.2.2", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Project Quality Hub: MCP-enabled project graph analysis, branch awareness, and quality scoring."
 readme = "README.md"
 authors = [{ name = "WangQiao" }]
-license = { file = "LICENSE" }
+license = { text = "MIT" }
 requires-python = ">=3.10"
 keywords = [
     "model-context-protocol",
@@ -25,7 +25,6 @@ dependencies = [
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Natural Language :: English",
     "Natural Language :: Chinese (Simplified)",
     "Operating System :: OS Independent",

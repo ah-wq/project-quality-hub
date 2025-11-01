@@ -2,6 +2,8 @@
 
 `project-quality-hub` wraps project analysis, multi-branch intelligence, smart incremental updates, and quality scoring into a Model Context Protocol (MCP) server that works with clients such as Claude and Cursor.
 
+> Latest PyPI release: [project-quality-hub 0.1.0](https://pypi.org/project/project-quality-hub/) (published 2025-11-01)
+
 ## Key Features
 - **Project Graph Analysis**: Build a knowledge graph with dependency and entity insight.
 - **Branch Awareness**: Analyse, switch, and compare Git branches individually.

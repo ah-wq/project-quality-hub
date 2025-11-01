@@ -1,8 +1,9 @@
 # Project Quality Hub
 
-[![CI](https://github.com/WangQiao/project-quality-hub/actions/workflows/ci.yml/badge.svg)](https://github.com/WangQiao/project-quality-hub/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/project-quality-hub.svg)](https://pypi.org/project/project-quality-hub/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> PyPI 最新版本：[project-quality-hub 0.1.0](https://pypi.org/project/project-quality-hub/)（发布日期：2025-11-01）
 
 Model Context Protocol tooling that gives AI assistants a trustworthy project graph, branch intelligence, smart incremental updates, and explainable quality scores.
 
