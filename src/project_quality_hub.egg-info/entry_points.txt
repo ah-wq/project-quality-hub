@@ -1,0 +1,3 @@
+[console_scripts]
+project-quality-hub = project_quality_hub.cli:main
+project-quality-hub-server = project_quality_hub.server.server:run

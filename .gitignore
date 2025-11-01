@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.env
+.mypy_cache/
+.pytest_cache/
+.dist-info/
+build/
+dist/
+.claude_memory/
+.project-quality-hub/
+.mcp-enhanced-quality/
+tmp-mem/

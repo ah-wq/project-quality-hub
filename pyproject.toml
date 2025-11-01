@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project-quality-hub"
+version = "0.1.0"
+description = "Project Quality Hub: MCP-enabled project graph analysis, branch awareness, and quality scoring."
+readme = "README.md"
+authors = [{ name = "WangQiao" }]
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+keywords = [
+    "model-context-protocol",
+    "mcp",
+    "code-quality",
+    "project-analysis",
+    "ai-assistant",
+]
+dependencies = [
+    "mcp>=0.1.1",
+    "networkx>=3.1",
+    "watchdog>=3.0",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Natural Language :: Chinese (Simplified)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.6",
+    "black>=24.0",
+]
+
+[project.scripts]
+project-quality-hub = "project_quality_hub.cli:main"
+project-quality-hub-server = "project_quality_hub.server.server:run"
+
+[project.urls]
+Homepage = "https://github.com/WangQiao/project-quality-hub"
+Documentation = "https://github.com/WangQiao/project-quality-hub/tree/main/docs"
+Repository = "https://github.com/WangQiao/project-quality-hub"
+"Issue Tracker" = "https://github.com/WangQiao/project-quality-hub/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
